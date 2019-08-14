@@ -1,0 +1,73 @@
+/* here you can put your own css to customize and override the theme */
+
+/* Remove the Gutter Padding from Columns */
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+/* Resize iSens Logo */
+.page-header .page-header-top .page-logo .logo-default {
+	margin-top: 10px;
+	height: 55px;
+}
+
+/* Resize menu for text on 1 line */
+.page-header .page-header-menu .hor-menu .navbar-nav > li.classic-menu-dropdown .dropdown-menu {
+	min-width: 300px;
+	max-width: 350px;
+}
+
+/* Resize Home breadcrumb */
+.breadcrumb .fa-home {
+	font-size: 14px;
+}
+
+/* Resize Tile for iSens img */
+.tiles .tile {
+	height: 144px;
+	width: 144px !important;
+}
+
+/* Specify Bold for Form title */
+.form .form-section {
+	font-weight:	bold;
+}
+
+/* Marge for Input button */
+.input-icon.right > .form-control {
+	padding-right: 38px;
+}
+.input-icon.right > i {
+	right: 18px;
+}
+/* Reset marge for Select2 */
+.input-icon.right > .select2-container {
+	padding: 0;
+}
+
+/* Modal */
+.modal.fade .modal-dialog {
+	-moz-transition-property: margin-top;
+	-webkit-transition-property: margin-top;
+	-o-transition-property: margin-top;
+	transition-property: margin-top;
+}
+
+/***
+Rounded Portlets
+***/
+/*
+.portlet {
+	border-radius: 4px !important;
+}
+
+.portlet .portlet-title {
+	border-radius: 4px 4px 0px 0px !important;
+}
+
+.portlet .portlet-body,
+.portlet .portlet-body .form-actions  {
+	border-radius: 0px 0px 4px 4px !important;
+}
+*/

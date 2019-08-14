@@ -1,0 +1,93 @@
+/* here you can put your own css to customize and override the theme */
+
+/* Recadre le logo iSens */
+.site-logo {
+	padding-top: 8px;
+	padding-bottom: 7px;
+}
+.site-logo img {
+	height: 68px;
+}
+.reduce-header .site-logo {
+	padding-top: 4px;
+	padding-bottom: 3px;
+}
+.reduce-header .site-logo img {
+	height: 50px;	
+}
+
+/* Login/Logout icon avec lien */
+.header-navigation li.menu-search a {
+	padding: 0;
+	display: inline-block;
+}
+.reduce-header .header-navigation li.menu-search a {
+	padding: 0;
+}
+/* Menu Admin rouge */
+.header-navigation > ul > li.admin > a {
+	color: #f44336;
+}
+.header-navigation ul > li.admin.active > a,
+.header-navigation ul > li.admin > a:hover,
+.header-navigation ul > li.admin > a:focus,
+.header-navigation ul > li.admin.open > a,
+.header-navigation ul > li.admin.open > a:hover,
+.header-navigation ul > li.admin.open > a:focus {
+	color: #f44336;
+}
+.header-navigation ul > li.admin.active > a {
+	border-bottom: 2px solid #f44336;
+}
+
+.prog {
+	padding: 0;
+}
+
+/* Select Diffuser Synthesis */
+.form .title-diff-select {
+	margin: 0 0 10px 0;
+}
+
+/* Tiles */
+.tiles .tile {
+    height: 144px;
+    width: 144px !important;
+}
+
+#programmation-form .control-label {
+	padding-left: 50px;
+	text-align: left;
+}
+
+
+/* Modal */
+.modal.fade .modal-dialog {
+	-moz-transition-property: margin-top;
+	-webkit-transition-property: margin-top;
+	-o-transition-property: margin-top;
+	transition-property: margin-top;
+}
+
+/* Remove the Gutter Padding from Columns */
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+/* Center a col with Bootstrap 3.0.1 */
+.center-block {
+	float: none;
+}
+
+/* Circle img any size + center (use with .img-circle and .img-responsive) */
+.ratio {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 0;
+    padding-bottom: 100%;
+    position: relative;
+    width: 100%;
+}
